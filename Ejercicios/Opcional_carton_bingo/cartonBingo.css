@@ -1,0 +1,43 @@
+*{
+    box-sizing:border-box ;
+ padding: 0;
+ margin: 0;
+}
+html, body{
+    height: 100%;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+#general{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+#segundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: orange;
+}
+.carga{
+    border: 1px solid black;
+    width: 15vh;
+    height: 15vh;
+    background-color: rgb(134, 194, 246);
+    font-size: 5vh;
+    text-align: center;
+}
+#primero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+}
+#boton{
+    width: 15vh;
+    height: 5vh;
+  font-size: 3vh;
+}
